@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>This is new change by user. update!</h2>
+<h6><b>This is a maven job project. update!</b></h6>
 <h2>Deployed form jenkins!</h2>
 </body>
 </html>
