@@ -9,9 +9,9 @@
     <h4>Aaditya Sankpal</h4>
     <h5>Akshay Pawar</h5>
     <h6>shubham bangre</h6>
-    <h7>hello world</h7>
-    <h8>new project1</h7>
-    <h9>shubhu</h9>
+    <h6>hello world</h6>
+    <h6>new project1</h6>
+    <h6>shubhu</h6>
     
 </div>
 <div>
