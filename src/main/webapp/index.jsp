@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Jenkin CI/CD Automation</title>
+    
 </head>
 <body>
 <img src="https://iconape.com/wp-content/png_logo_vector/cib-jenkins.png" alt="Girl in a jacket" width="600" height="600">
