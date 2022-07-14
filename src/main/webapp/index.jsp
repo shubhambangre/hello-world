@@ -16,8 +16,6 @@
         <!-- Trigger/Open The Modal -->
         <button id="myBtn" class="button-19">Team</button>
     </div>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
     
             <!-- Modal content -->
             <div class="modal-content">
@@ -28,8 +26,6 @@
                 
     
             </div>
-    
-        </div>
         
         
         
