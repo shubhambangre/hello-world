@@ -48,7 +48,7 @@
   <tr>
     <td>Ramesh jangir</td>
     <td>Devops</td>
-    <td>r.janahagir@rnt.ai</td>
+    <td>r.jangir@rnt.ai</td>
   </tr>
   <tr>
     <td>Shubham Bangre</td>
