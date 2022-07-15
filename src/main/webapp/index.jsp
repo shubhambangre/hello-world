@@ -46,7 +46,7 @@
     <td>k.bafna@rnt.ai</td>
   </tr>
   <tr>
-    <td>Ramesh jahangir</td>
+    <td>Ramesh jangir</td>
     <td>Devops</td>
     <td>r.janahagir@rnt.ai</td>
   </tr>
