@@ -38,7 +38,7 @@
   <tr>
     <td>Vinit patil</td>
     <td>Devops</td>
-    <td>vpatil@rnt.ai</td>
+    <td>v.patil@rnt.ai</td>
   </tr>
   <tr>
     <td>Kirti Bafna</td>
