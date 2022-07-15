@@ -24,14 +24,43 @@
                 <span class="close">&times;</span>
                 <h1>Rabbit and tortoise technology solution.</h1>
                 <h2>We Are Deploy this Project Throught CI/CD Jenkins.</h2>
-                <b>Aditya Sankpal(a.sankpal@rnt.ai),</b>
-                <b>Vinit Patil(v.patil@rnt.ai),</b>
-                <b>Ramesh Jangir(r.jangir@rnt.ai),</b>
-                <b>Shubham bangre(s.bangre@rnt.ai),</b>
-                <b>Akshay Pawar(ak.pawar@rnt.ai),<b>
-                <b>Kirti Bafna(k.bafna@rnt.ai),<b>
-                <b>Vinmay Parkhi(v.parkhi@rnt.ai).<b>
-              
+               <table>
+  <tr>
+    <th>Name</th>
+    <th>Designation</th>
+    <th>E-mail</th>
+  </tr>
+  <tr>
+    <td>Aaditya Sankpal</td>
+    <td>Devops</td>
+    <td>a.sapkapal@rnt.ai</td>
+  </tr>
+  <tr>
+    <td>Vinit patil</td>
+    <td>Devops</td>
+    <td>v.patil@rnt.ai</td>
+  </tr>
+  <tr>
+    <td>Kirti Bafna</td>
+    <td>Devops</td>
+    <td>k.bafna@rnt.ai</td>
+  </tr>
+  <tr>
+    <td>Ramesh jahangir</td>
+    <td>Devops</td>
+    <td>r.janahagir@rnt.ai</td>
+  </tr>
+  <tr>
+    <td>Shubham Bangre</td>
+    <td>Devops</td>
+    <td>s.bangre@rnt.ai</td>
+  </tr>
+  <tr>
+    <td>Akshay Pawar</td>
+    <td>Devops</td>
+    <td>a.pawar@rnt.ai</td>
+  </tr>
+</table>
                 
     
             </div>
