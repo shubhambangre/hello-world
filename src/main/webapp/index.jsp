@@ -60,6 +60,11 @@
     <td>Devops</td>
     <td>a.pawar@rnt.ai</td>
   </tr>
+  <tr>
+    <td>Vinmay Parkhi</td>
+    <td>Devops</td>
+    <td>v.parkhi@rnt.ai</td>
+  </tr>
 </table>
                 
     
