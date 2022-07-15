@@ -24,11 +24,13 @@
                 <span class="close">&times;</span>
                 <h1>Rabbit and tortoise technology solution.</h1>
                 <h2>We Are Deploy this Project Throught CI/CD Jenkins.</h2>
-                <b>Aaditya Sankapal</b>
-                <b>Vinit Patil</b>
-                <b>Ramesh Jangir</b>
-                <b>Shubham bangre</b>
-                
+                <b>Aaditya Sankapal,</b>
+                <b>Vinit Patil,</b>
+                <b>Ramesh Jangir,</b>
+                <b>Shubham bangre,</b>
+                <b>Akshay Pawar,<b>
+                <b>Kirti Bafna,<b>
+                <b>Vinmay Parkhi.<b>
               
                 
     
