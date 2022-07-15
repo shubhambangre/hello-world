@@ -33,7 +33,7 @@
   <tr>
     <td>Aaditya Sankpal</td>
     <td>Devops</td>
-    <td>a.sapkapal@rnt.ai</td>
+    <td>a.sankpal@rnt.ai</td>
   </tr>
   <tr>
     <td>Vinit patil</td>
