@@ -66,7 +66,7 @@
     <td>v.parkhi@rnt.ai</td>
   </tr>
   <tr>
-    <td>Anomous </td>
+    <td>samba sir </td>
     <td>Deops</dt>
     <td>a.unknown@rnt.ai</td>
     </td>
