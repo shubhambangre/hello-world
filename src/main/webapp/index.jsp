@@ -67,8 +67,8 @@
   </tr>
   <tr>
     <td>samba sir </td>
-    <td>Deops</dt>
-    <td>a.unknown@rnt.ai</td>
+    <td>CEO</dt>
+    <td>samba@rnt.ai</td>
     </td>
 </table>
                 
