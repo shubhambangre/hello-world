@@ -58,7 +58,7 @@
   <tr>
     <td>Akshay Pawar</td>
     <td>Devops</td>
-    <td>a.pawar@rnt.ai</td>
+    <td>ak.pawar@rnt.ai</td>
   </tr>
   <tr>
     <td>Vinmay Parkhi</td>
