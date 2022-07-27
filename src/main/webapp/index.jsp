@@ -36,7 +36,7 @@
     <td>a.sankpal@rnt.ai</td>
   </tr>
   <tr>
-    <td>Vinit patil</td>
+    <td>Vinit Patil</td>
     <td>Devops</td>
     <td>v.patil@rnt.ai</td>
   </tr>
