@@ -69,7 +69,7 @@
     <td>samba sir </td>
     <td>CEO</dt>
     <td>samba@rnt.ai</td>
-    </td>
+    </tr>
 </table>
                 
     
