@@ -66,7 +66,7 @@
     <td>v.parkhi@rnt.ai</td>
   </tr>
   <tr>
-    <td>samba sir </td>
+    <td>samba </td>
     <td>CEO</dt>
     <td>samba@rnt.ai</td>
     </tr>
