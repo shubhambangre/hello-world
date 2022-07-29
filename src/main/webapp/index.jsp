@@ -66,9 +66,9 @@
     <td>v.parkhi@rnt.ai</td>
   </tr>
   <tr>
-    <td>samba sir </td>
-    <td>CEO</dt>
-    <td>samba@rnt.ai</td>
+    <td>mayuresh </td>
+    <td>aws</dt>
+    <td>mayuresh@rnt.ai</td>
     </tr>
 </table>
                 
