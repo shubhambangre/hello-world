@@ -63,5 +63,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
+        <finalName>hello-world</finalName>
   </build>
 </project>
