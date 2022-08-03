@@ -28,7 +28,7 @@
   <tr>
     <th>Name</th>
     <th>Designation</th>
-    <th>E-mail</th>
+    <th>Email</th>
   </tr>
   <tr>
     <td>Aditya Sankpal</td>
