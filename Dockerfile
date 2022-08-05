@@ -1,4 +1,6 @@
-FROM openjdk:8
+FROM tomcat:latest
+LABEL maintainer=hello
+ADD ./target/hello-world.war /usr/share/tomcat/webapps/
 EXPOSE 8080
-ADD target/hello-world.war hello-world.war  
-ENTRYPOINT ["java","-war","/hello-world.war ."]
+CMD ["catalina.sh","run"]
+
