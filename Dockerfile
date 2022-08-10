@@ -1,6 +1,4 @@
-FROM tomcat:latest
-LABEL maintainer=hello
-ADD ./target/hello-world.war /usr/share/tomcat/webapps/
-EXPOSE 8080
+FROM tomcat
+COPY hello-world.war /usr/local/tomcat/webapps
 CMD ["catalina.sh","run"]
 
