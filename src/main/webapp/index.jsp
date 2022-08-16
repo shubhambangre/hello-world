@@ -37,7 +37,7 @@
   </tr>
   <tr>
     <td>Vinit Patil</td>
-    <td>Devops</td>
+    <td>Devops&cloudops</td>
     <td>v.patil@rnt.ai</td>
   </tr>
   <tr>
