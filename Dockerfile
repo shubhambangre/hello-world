@@ -5,7 +5,7 @@ MAINTAINER aksarav@middlewareinventory.com
 RUN mkdir /opt/tomcat/
 
 WORKDIR /opt/tomcat
-RUN curl -O https://tomcat.apache.org/download-90.cgi/apache-tomcat-9.0.65-src.tar.gz
+RUN curl -O https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.34/bin/apache-tomcat-9.0.34-deployer.tar.gz
 RUN gunzip apache-tomcat-9.0.65-src.tar.gz
 RUN tar xvzf apache-tomcat-9.0.65-src.tar
 RUN mv apache-tomcat-9.0.65/* /opt/tomcat/.
