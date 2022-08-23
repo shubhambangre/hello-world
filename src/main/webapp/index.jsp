@@ -22,7 +22,7 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <h1>Rabbit and tortoise technology solution.</h1>
+                <h1>Rabbit and tortois technology solution.</h1>
                 <h2>We Are Deploy this Project Throught CI/CD Jenkins.</h2>
                <table>
   <tr>
