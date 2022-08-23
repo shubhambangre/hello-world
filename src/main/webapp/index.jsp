@@ -31,7 +31,7 @@
     <th>Email</th>
   </tr>
   <tr>
-    <td>Aditya Sankpal</td>
+    <td>Aditya </td>
     <td>Devops</td>
     <td>a.sankpal@rnt.ai</td>
   </tr>
