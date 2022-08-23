@@ -13,7 +13,7 @@ pipeline {
         stage ("deploy project to tomcat") {
             steps {
                 script {
-                    sh 'sudo sshpass -p '123' scp /var/lib/jenkins/workspace/ello-world-multibranch_main_edit/target/hello-world.war root@3.13.184.127:/usr/share/tomcat9/webapps/'
+                    sh 'sudo sshpass -p \'123\' scp /var/lib/jenkins/workspace/ello-world-multibranch_main_edit/target/hello-world.war root@3.13.184.127:/usr/share/tomcat9/webapps/'
                 }
             }
         }
