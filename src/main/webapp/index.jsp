@@ -30,6 +30,11 @@
     <th>Designation</th>
     <th>Email</th>
   </tr>
+    <tr>
+    <td>Kirti Bafna(Team Leader)</td>
+    <td>Devops&cloudops</td>
+    <td>k.bafna@rnt.ai</td>
+  </tr>
   <tr>
     <td>Aditya Sankpal </td>
     <td>Devops&cloudops</td>
@@ -39,11 +44,6 @@
     <td>Vinit Patil</td>
     <td>Devops&cloudops</td>
     <td>v.patil@rnt.ai</td>
-  </tr>
-  <tr>
-    <td>Kirti Bafna</td>
-    <td>Devops&cloudops</td>
-    <td>k.bafna@rnt.ai</td>
   </tr>
   <tr>
     <td>Ramesh Jangir</td>
