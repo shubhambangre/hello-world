@@ -104,6 +104,11 @@
     <td>Powerapps developers</dt>
     <td>b.kshirsagar@rnt.ai</td>
     </tr>
+    <tr>
+    <td>Kuntal Atkare</td>
+    <td>AWS</dt>
+    <td>k.atkare@rnt.ai</td>
+    </tr>
 </table>
                 
     
