@@ -5,7 +5,7 @@
 <div>
     <h1>Vinit Patil</h1>
     <h2>Ramesh Jahangir</h2>
-    <h3>Kirti Bafna</h3>
+    <h3>Vinmay Parkhi</h3>
 </div>
 <div>
     <p>Jenkin Project Build!</p>
