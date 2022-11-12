@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1><b>Jenkins Project through GCP</b></h1>
+<h1><b>Jenkins Project through GC</b></h1>
 <h2>Deployed from jenkins!</h2>
 <div>
     <h1>Welcome to Rabbit & Tortoise</h1>
