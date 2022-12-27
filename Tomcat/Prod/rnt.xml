@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="core/RNTResource"
+        factory="ai.rnt.main.factory.RNTFactory"
+        global="core/RNTResource"
+        
+        server.type="prod"
+        
+        mysql.driver="com.mysql.cj.jdbc.Driver"
+        mysql.url="jdbc:mysql://rntdbuatprod.cywt4ngax3hu.us-east-2.rds.amazonaws.com:3306/rntproddb?useSSL=false"
+        mysql.user="rnt_user_prod"
+        mysql.password="pr0du$erpwd"
+        
+        s3.endpoint="https://s3.us-east-2.amazonaws.com"
+        s3.accesskey="AKIATI6VZ2KCOYDJOG4Q"
+        s3.secretekey="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"
+        s3.bucket_name="rntdata"
+        s3.profiles_folder="rntapp/prod/profiles"
+        s3.documents_folder="rntapp/prod/documents"
+    />    
+
+</Context>
