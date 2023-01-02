@@ -1,4 +1,4 @@
-FROM redhat/ubi8
+FROM centos
 
 MAINTAINER aksarav@middlewareinventory.com
 
