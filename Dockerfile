@@ -6,5 +6,5 @@ ADD  ./target/hello-world.war /usr/local/tomcat/webapps
 
 EXPOSE 8080
 
-CMD [“/usr/local/tomcat catalina.sh”, “run”]
+CMD [“/usr/share/tomcat/catalina.sh”, “run”]
 
