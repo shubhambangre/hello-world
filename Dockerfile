@@ -1,10 +1,7 @@
-FROM tomcat:8.0-alpine
-
-LABEL maintainer=”shubhamb”
-
-ADD  /target/hello-world.war /usr/share/tomcat/webapps
-
+FROM akshpawardocker/tomcat:9.0.63
+LABEL maintainer="shubham"
+COPY /target/hello-world.war /usr/share/tomcat/webapps/
+COPY /target/hello-world.war /usr/local/tomcat/webapps/
 EXPOSE 8080
-
-CMD [“/usr/share/tomcat/catalina.sh”, “run”]
+CMD ["/usr/share/tomcat/bin/catalina.sh", "run"]
 
