@@ -2,7 +2,7 @@ FROM tomcat:8.0-alpine
 
 LABEL maintainer=”shubhamb”
 
-ADD  ./target/hello-world.war /usr/local/tomcat/webapps
+ADD  ./target/hello-world.war /usr/share/tomcat/webapps
 
 EXPOSE 8080
 
