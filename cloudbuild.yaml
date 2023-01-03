@@ -4,5 +4,5 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/java-373610/hello-world:$COMMIT_SHA']
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['beta','run' 'deploy', 'hello-world', '--region=asia-east1', '--port=8080', '--platform=managed', '--image=gcr.io/java-373610/hello-world:$COMMIT_SHA']
+    args: ['beta','run', 'deploy', 'hello-world', '--region=asia-east1', '--port=8080', '--platform=managed', '--image=gcr.io/java-373610/hello-world:$COMMIT_SHA']
 
