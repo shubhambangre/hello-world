@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-LABEL maintainer=”kirtb”
+LABEL maintainer=”shubhamb”
 
 ADD  ./target/hello-world.war /usr/local/tomcat/webapps
 
