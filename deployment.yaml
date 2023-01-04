@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: demo-app
+  labels: 
+    app: demo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels: 
+      app: demo-app
+  template: 
+    metadata:
+      labels: 
+        app: demo-app
+    spec: 
+      containers:
+        - name: demo-app
+          image: gcr.io/java-373610/hello-world:f2377aba9984555514ba9bad4e82632c12c11e88
+          ports: 
+          - containerport: 8080
