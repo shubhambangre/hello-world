@@ -12,5 +12,11 @@ steps:
       ##- --image=gcr.io/$PROJECT-ID/demo-app
       - --location=asia-east1-a
       - --cluster=cluster-1
+    - name: 'gcr.io/cloud-builders/gke-deploy'
+      args: 
+      - run
+      - --filename=service.yaml
+      - --location=asia-east1-a
+      - --cluster=cluster-1
       
 
