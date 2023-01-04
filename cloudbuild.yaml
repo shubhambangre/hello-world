@@ -10,7 +10,7 @@ steps:
       - run
       - --filename=deployment.yaml
       ##- --image=gcr.io/$PROJECT-ID/demo-app
-      - --location=asia-east1
+      - --location=asia-east1-a
       - --cluster=cluster-1
       
 
