@@ -9,7 +9,7 @@ steps:
     args: 
       - run
       - --filename=ops/deployment.yaml
-      - --image=gcr.io/$PROJECT-ID/demo-app
+      ##- --image=gcr.io/$PROJECT-ID/demo-app
       - --location=asia-east1
       - --cluster=cluster-1
       
