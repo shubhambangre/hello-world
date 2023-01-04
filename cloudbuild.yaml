@@ -5,4 +5,12 @@ steps:
     args: ['push', 'gcr.io/java-373610/hello-world:$COMMIT_SHA']
   - name: 'gcr.io/cloud-builders/gcloud'
     args: ['beta','run', 'deploy', 'hello-world', '--region=asia-east1', '--port=8080', '--platform=managed', '--image=gcr.io/java-373610/hello-world:$COMMIT_SHA']
+  - name: 'gcr.io/cloud-builders/gke-deploy'
+    args: 
+      - run
+      - --filename=ops/deployment.yaml
+      - --image=gcr.io/$PROJECT-ID/demo-app
+      - --location=asia-east1
+      - --cluster=cluster-1
+      
 
