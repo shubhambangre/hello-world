@@ -1,3 +1,18 @@
+kind: Service
+apiversion: v1
+metadata: 
+ annotations:
+ name: demo-app
+spec:
+  selector:
+    app: demo-app
+  type: LoadBalancer
+  ports:
+    -  protocol: TCP
+       port: 80
+       targetPort: 8080
+       
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
