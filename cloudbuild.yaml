@@ -1,7 +1,7 @@
 steps:       
  
    
- - name: 'gcr.io/cloud-builders/docker'
+  - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/java-373610/hello-world:$COMMIT_SHA', '.']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/java-373610/hello-world:$COMMIT_SHA']
