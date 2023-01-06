@@ -1,6 +1,6 @@
 steps:       
  
-    args: ['package','-Dmaven.test.skip=true']
+   
  - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/java-373610/hello-world:$COMMIT_SHA', '.']
   - name: 'gcr.io/cloud-builders/docker'
