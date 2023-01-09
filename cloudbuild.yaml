@@ -6,5 +6,5 @@ steps:
   - '-c'
   - |
     set -x && \
-    gcloud compute ssh akshpawar2056@cloudshell-server --zone=asia-east1-a --command='/bin/bash /'
+    gcloud compute ssh akshpawar2056-server --zone=asia-east1-a --command='/bin/bash /'
 
