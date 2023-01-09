@@ -1,18 +1,10 @@
-steps:         
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/java-373610/hello-world:$COMMIT_SHA', '.']
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/java-373610/hello-world:$COMMIT_SHA']
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['beta','run', 'deploy', 'hello-world', '--region=asia-east1', '--port=8080', '--platform=managed', '--image=gcr.io/java-373610/hello-world:$COMMIT_SHA']
-  - name: 'gcr.io/cloud-builders/gke-deploy'
-    args: 
-      - run
-      - --filename=deployment.yaml
-      ##- --image=gcr.io/$PROJECT_ID/demo-app
-      - --location=asia-east1-a
-      - --cluster=cluster-1
-
-  
- 
+steps:  
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: Update staging server
+  entrypoint: /bin/bash
+  args:
+  - '-c'
+  - |
+    set -x && \
+    gcloud compute ssh medium-server --zone=asia-east1-a --command='/bin/bash /home/akshpawar2056/java/hello-world-java'
 
