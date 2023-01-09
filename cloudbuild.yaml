@@ -6,5 +6,5 @@ steps:
   - '-c'
   - |
     set -x && \
-    gcloud compute ssh medium-server --zone=asia-east1-a --command='/bin/bash /home/akshpawar2056/java/hello-world-java'
+    gcloud compute ssh medium-server --zone=asia-east1-a --command='/bin/bash /'
 
