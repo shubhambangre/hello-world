@@ -1,10 +1,10 @@
 steps:  
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/shubh-374311/hello-w:$COMMIT_SHA', '.']
+    args: ['build', '-t', 'gcr.io/shubh-374311/hello-world:$COMMIT_SHA', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/shubh-374311/hello-w:$COMMIT_SHA']
+    args: ['push', 'gcr.io/shubh-374311/hello-world:$COMMIT_SHA']
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['beta','run', 'deploy', 'hello-world', '--region=asia-east1', '--port=8080', '--platform=managed', '--image=gcr.io/shubh-374311/hello-w:$COMMIT_SHA']
+    args: ['beta','run', 'deploy', 'hello-world', '--region=asia-east1', '--port=8080', '--platform=managed', '--image=gcr.io/shubh-374311/hello-world:$COMMIT_SHA']
   - name: 'gcr.io/cloud-builders/gke-deploy'
     args: 
       - run
