@@ -17,6 +17,6 @@ spec:
     spec: 
       containers:
         - name: demo-app
-          image: gcr.io/java-373610/hello-world:f2377aba9984555514ba9bad4e82632c12c11e88
+          image: gcr.io/shubh-374311/hello-w@sha256:94c5a04ef61759e8c6ed3899570c932d05bd37dd0d654fb1d12c09730a5ac1ee
           ports: 
           - containerPort: 8080
